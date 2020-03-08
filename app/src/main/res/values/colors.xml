@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+
+    <color name="colorFunctionCalcButtonsBG">#333333</color>
+    <color name="colorFunctionCalcButtonsText">#C4C4C4</color>
+
+    <color name="colorNumberCalcButtonsBG">#C4C4C4</color>
+    <color name="colorNumberCalcButtonsText">#333333</color>
+
+    <color name="colorEqualCalcButtonsBG">#FF920A</color>
+    <color name="colorEqualCalcButtonsText">#FFFFFF</color>
+</resources>

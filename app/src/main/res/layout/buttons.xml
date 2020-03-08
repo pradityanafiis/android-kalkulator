@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="5"
+    android:columnCount="4"
+    >
+
+    <!-- BARIS PERTAMA -->
+    <Button
+        android:id="@+id/button_openBracket"
+        style="@style/FunctionalButtons"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="(" />
+
+    <Button
+        android:id="@+id/button_closeBracket"
+        style="@style/FunctionalButtons"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text=")" />
+
+    <Button
+        android:id="@+id/button_mod"
+        style="@style/FunctionalButtons"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/button_clear"
+        style="@style/FunctionalButtons"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:text="C" />
+
+    <!-- BARIS KEDUA -->
+    <Button
+        android:id="@+id/button_seven"
+        style="@style/NumberButtons"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button_eight"
+        style="@style/NumberButtons"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/button_nine"
+        style="@style/NumberButtons"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button_divide"
+        style="@style/FunctionalButtons"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:text="/" />
+
+    <!-- BARIS KETIGA -->
+    <Button
+        android:id="@+id/button_four"
+        style="@style/NumberButtons"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button_five"
+        style="@style/NumberButtons"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button_six"
+        style="@style/NumberButtons"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button_multiply"
+        style="@style/FunctionalButtons"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:text="*" />
+
+    <!-- BARIS KEEMPAT -->
+    <Button
+        android:id="@+id/button_one"
+        style="@style/NumberButtons"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button_two"
+        style="@style/NumberButtons"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button_three"
+        style="@style/NumberButtons"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button_subtract"
+        style="@style/FunctionalButtons"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:text="-" />
+
+    <!-- BARIS KELIMA -->
+    <Button
+        android:id="@+id/button_zero"
+        style="@style/NumberButtons"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button_dot"
+        style="@style/NumberButtons"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:text="," />
+
+    <Button
+        android:id="@+id/button_equal"
+        style="@style/EqualButtons"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/button_add"
+        style="@style/FunctionalButtons"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:text="+" />
+
+</GridLayout>

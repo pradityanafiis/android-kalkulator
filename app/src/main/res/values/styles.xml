@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FunctionalButtons">
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/colorFunctionCalcButtonsText</item>
+        <item name="android:background">@drawable/function_calculator_buttons</item>
+    </style>
+
+    <style name="NumberButtons">
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/colorNumberCalcButtonsText</item>
+        <item name="android:background">@drawable/number_calculator_buttons</item>
+    </style>
+
+    <style name="EqualButtons">
+        <item name="android:textSize">25dp</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/colorEqualCalcButtonsText</item>
+        <item name="android:background">@drawable/equal_calculator_button</item>
+    </style>
+
+</resources>
